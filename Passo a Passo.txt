@@ -1,0 +1,23 @@
+1º Criar um repositorio no servidor, ou fazer fork de algum projeto interessado.
+
+-ir no github de escolha e fazer um fork.
+
+2º Clonar o repósitorio para a pasta local de escolha. Iniciar repositorio local do git, caso não haja.
+
+-Abrir git bash, e clonar com git clone _endereçoDefork no seu github_
+
+3º Criar ramificação , se quiser. Mas é boa prática.
+
+-Criar ramificação com git checkout -b _nome do ramo_
+
+4º Sempre atualizar em se tratar de main, ou master. Fazer procedimentos padrões para commit em modificações de arquivos.
+
+-atualizar com git pull
+-verificação com git status
+-stagged com git add .
+-commit com git commit -m "Descrição do commit"
+-sincronizar commit com repositorio github com git push
+
+5º Se quiser, fazer pull request para solicitação de aprovação no código.
+
+-em github abrir pull request. e esperar aceitar ou não.
